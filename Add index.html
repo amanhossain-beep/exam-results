@@ -1,0 +1,117 @@
+# File 1: index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            color: #0066cc;
+            font-size: 24px;
+        }
+        .tabs {
+            background: #f0f0f0;
+            padding: 10px 0;
+            margin: 20px 0;
+        }
+        .tab {
+            padding: 8px 15px;
+            display: inline-block;
+        }
+        .tab.active {
+            background: #0066cc;
+            color: white;
+        }
+        .student-info {
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #ff1493;
+            color: white;
+        }
+        .footer {
+            color: #666;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        .logout {
+            background: #f0f0f0;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">CandidateResults</div>
+        <img src="/api/placeholder/150/50" alt="Cambridge International Education">
+    </div>
+
+    <div class="tabs">
+        <span class="tab active">Your Results</span>
+        <span class="tab">What's Next?</span>
+    </div>
+
+    <div class="student-info">
+        <h2>MOHAMMAD AMAN HOSSAIN (Candidate no. 124)</h2>
+        <p>British Council, Dhaka (Centre no. BD001)</p>
+    </div>
+
+    <h3>Your Results: November 2024</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Examination</th>
+                <th>Qualification</th>
+                <th>Grade Awarded</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chemistry (9701)</td>
+                <td>GCE AS & A Level</td>
+                <td>UNGRADED</td>
+            </tr>
+            <tr>
+                <td>Mathematics (9709)</td>
+                <td>GCE AS & A Level</td>
+                <td>D (AL) (51)</td>
+            </tr>
+            <tr>
+                <td>Physics (9702)</td>
+                <td>GCE AS & A Level</td>
+                <td>D (AL) (53)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="footer">
+        The results displayed are provisional, and for information only
+    </div>
+</body>
+</html>
