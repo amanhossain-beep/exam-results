@@ -1,0 +1,13 @@
+# File 2: .gitignore
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# GitHub specific
+.github/
